@@ -1,5 +1,5 @@
 
--module(p31_sup).
+-module(prime_sup).
 
 -behaviour(supervisor).
 

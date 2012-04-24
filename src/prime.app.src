@@ -1,4 +1,4 @@
-{application, p31,
+{application, prime,
  [
   {description, ""},
   {vsn, "1"},
@@ -7,6 +7,6 @@
                   kernel,
                   stdlib
                  ]},
-  {mod, { p31_app, []}},
+  {mod, { prime_app, []}},
   {env, []}
  ]}.
