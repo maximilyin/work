@@ -1,2 +1,4 @@
 #!/bin/sh
-erl -pa $PWD/ebin -pa $PWD/deps/*/ebin -sname mega_server
+erl -pa $PWD/ebin -pa $PWD/deps/*/ebin -sname mega_server -s prime \
+ -config app
+    
