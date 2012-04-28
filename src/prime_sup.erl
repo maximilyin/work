@@ -27,6 +27,7 @@ init([]) ->
  WebOptions = [
                     {name, http_handler},
                     {port, exlibris_application:get_env(prime, http_port, 8080)},
+                    {ip, exlibris_application:get_env(prime, http_addr, "127.0.0.1")},
                     {loop,  fun(Req) -> http_handler:handle_http(Req) end},
                     {autoexit, true}
     ],
